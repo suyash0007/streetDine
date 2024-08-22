@@ -1,0 +1,112 @@
+{
+    "orders": [
+      {
+        "id": "021",
+        "token": "T2",
+        "token_number":"7",
+        "type": "Take Away",
+        "instructions": "Add extra cheese",
+        "table_no":1,
+        "items": [
+          {
+            "name": "Veg Pizza",
+            "quantity": 1,
+            "price": "₹ 350",
+            "image": "/images/plate-2802332_640.webp",
+            "instructions": "Add extra cheese"
+            
+          },
+          {
+            "name": "Pasta",
+            "quantity": 1,
+            "price": "₹ 350",
+            "image":"/images/spaghetti-5259810_640.webp",
+            "instructions": "Add extra cheese"
+          }
+        ],
+        "status": "Not Paid",
+        "totalAmount": "₹ 700",
+        "remainingAmount": "₹ 700"
+      },
+      {
+        "id": "022",
+        "token": "T3",
+        "token_number":"8",
+        "type": "Dine In",
+        "instructions": "Add extra cheese",
+        "table_no":2,
+        "items": [
+          {
+            "name": "Veg Pizza",
+            "quantity": 1,
+            "price": "₹ 350",
+            "image": "/images/plate-2802332_640.webp",
+            "instructions": "Add extra cheese"
+            
+          },
+          {
+            "name": "Coca Cola",
+            "quantity": 1,
+            "price": "₹ 350",
+            "instructions": "Add extra cheese",
+            "image":"/images/coca-cola-6090176_640.webp"
+          }
+        ],
+        "status": "Not Paid",
+        "totalAmount": "₹ 700",
+        "remainingAmount": "₹ 700"
+      },
+      {
+        "id": "023",
+        "token": "T4",
+        "token_number":"9",
+        "type": "Dine In",
+        "instructions": "Add extra cheese",
+        "table_no":3,
+        "items": [
+          {
+            "name": "Veg Pasta",
+            "quantity": 1,
+            "price": "₹ 350",
+            "instructions": "Add extra cheese",
+            "image":"/images/plate-2802332_640.webp"
+          },
+          {
+            "name": "Coca Cola",
+            "quantity": 1,
+            "price": "₹ 350",
+            "instructions": "Add extra cheese",
+            "image":"/images/coca-cola-6090176_640.webp"
+
+          }
+        ],
+        "status": "Not Paid",
+        "totalAmount": "₹ 700",
+        "remainingAmount": "₹ 700"
+      }
+      
+      
+    ],
+    "menu": [
+      {
+        "id": "1",
+        "name": "Veg Pizza (Medium)",
+        "price": "₹ 100",
+        "image": "/plate-2802332_640.webp"
+      },
+      {
+        "id": "2",
+        "name": "Veg Pasta(White Sauce)",
+        "price": "₹ 100",
+        "image": "/spaghetti-5259810_640.webp"
+      },
+      {
+        "id": "3",
+        "name": "Coca Cola",
+        "price":"₹ 100",
+        "image": "/coca-cola-6090176_640.webp"
+      }
+      
+    ]
+  }
+  
