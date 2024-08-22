@@ -1,5 +1,5 @@
 import Dashboard from "./components/Dashboard";
-import SideBar, { SidebarItem } from "./components/sideBar";
+import SideBar, { SidebarItem } from "./components/SideBar";
 import { 
   LayoutDashboard, 
   LayoutList, 
