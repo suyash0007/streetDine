@@ -28,7 +28,7 @@ function Dashboard() {
         ))}
       </div>
       {selectedOrder && (
-        <Suspense fallback={<div>Loading Order Information...</div>}>
+        <Suspense fallback={<div className='fixed right-0 top-0 p-5 font-bold text-xl'>Loading Order Information...</div>}>
           <OrderInformation
             order={selectedOrder}
             onShowOrderInformation={handleCloseOrderInformation}
